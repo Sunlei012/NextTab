@@ -1,11 +1,43 @@
-<div align="center">
+# TabNexus - 智能本地标签页管理扩展
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+TabNexus 是一款兼容 Chrome 和 Edge 的“新建标签页”增强插件。它将你的空白页转变为一个强大的仪表盘，通过纯本地的规则引擎自动整理你当前打开的所有标签页，并提供任务看板功能，助你高效管理工作流。
 
-  <h1>Built with AI Studio</h2>
+## 核心特性
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **🚀 纯本地智能分类**：
+  - 不依赖任何云端请求，100% 保护隐私。
+  - 基于关键词规则的自动分组（开发工具、流媒体、社交、生产力等）。
+  - **动态域名聚类**：对于未匹配规则的页面，自动按域名分组，告别混乱。
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+- **📋 任务工作空间 (Task Workspace)**：
+  - **拖拽整理**：从左侧分类列表将网页直接拖入右侧的任务看板。
+  - **任务闭环**：点击任务完成，可一键关闭该任务下的所有浏览器标签页。
+  - **持久化存储**：即使关闭浏览器，你的任务清单和网页进度也会永久保存。
 
-</div>
+- **🎨 极致简约设计**：
+  - 采用 **Clean Minimalism** 设计风格，提供舒适的视觉体验。
+  - **内联编辑**：直接在主页点击分类名称即可重命名并实时保存规则。
+  - **实时同步**：感知浏览器标签页的开启、关闭和移动，UI 零延迟自动更新。
+
+- **🔍 深度搜索**：在所有打开的标签页和任务看板中快速检索目标。
+
+## 安装指南 (开发者模式)
+
+1. **环境准备**：在此环境中运行 `npm run build`。
+2. **导出代码**：通过菜单中的“设置”或“导出”将项目下载为 ZIP 或直接推送到 GitHub。
+3. **加载插件**：
+   - 打开 Chrome/Edge 的扩展程序页面 (`chrome://extensions`)。
+   - 开启“开发者模式”。
+   - 点击“加载解压缩的扩展程序”，选择本项目构建后的 `dist` 目录。
+
+## 技术栈
+
+- **React 19** & **TypeScript**
+- **Vite** (构建引擎)
+- **Tailwind CSS** (样式方案)
+- **Framer Motion** (交互动画)
+- **Lucide React** (图标库)
+- **LocalStorage API** (本地持久化)
+
+---
+*注：本项目设计为纯本地运行，无需配置 API Key，开箱即用。*

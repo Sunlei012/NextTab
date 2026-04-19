@@ -1,0 +1,6 @@
+{
+  "name": "TabNexus",
+  "description": "An intelligent Chrome extension that transforms your new tab page into a categorized hub of all your open tabs, powered by Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
