@@ -54,22 +54,22 @@ export default function App() {
   
   // Tasks management
   const [tasks, setTasks] = useState<TaskGroup[]>(() => {
-    const saved = localStorage.getItem('tabnexus_tasks');
+    const saved = localStorage.getItem('nexttab_tasks');
     return saved ? JSON.parse(saved) : [];
   });
 
   // Rules management
   const [rules, setRules] = useState<CategoryRuleSet>(() => {
-    const saved = localStorage.getItem('tabnexus_rules');
+    const saved = localStorage.getItem('nexttab_rules');
     return saved ? JSON.parse(saved) : DEFAULT_CATEGORY_RULES;
   });
 
   useEffect(() => {
-    localStorage.setItem('tabnexus_rules', JSON.stringify(rules));
+    localStorage.setItem('nexttab_rules', JSON.stringify(rules));
   }, [rules]);
 
   useEffect(() => {
-    localStorage.setItem('tabnexus_tasks', JSON.stringify(tasks));
+    localStorage.setItem('nexttab_tasks', JSON.stringify(tasks));
   }, [tasks]);
 
   const refreshData = async () => {

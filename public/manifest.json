@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "TabNexus",
+  "name": "NextTab",
   "version": "1.0",
   "description": "Smart Tab Hub that categorizes your open tabs using Gemini AI.",
   "permissions": ["tabs"],

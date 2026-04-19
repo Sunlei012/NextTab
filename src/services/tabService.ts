@@ -25,7 +25,7 @@ export async function getOpenTabs(): Promise<Tab[]> {
     { id: 1, title: 'React Documentation', url: 'https://react.dev', favIconUrl: 'https://react.dev/favicon.ico' },
     { id: 2, title: 'Tailwind CSS Docs', url: 'https://tailwindcss.com', favIconUrl: 'https://tailwindcss.com/favicon.ico' },
     { id: 3, title: 'Gemini AI API', url: 'https://ai.google.dev', favIconUrl: 'https://ai.google.dev/favicon.ico' },
-    { id: 4, title: 'GitHub: TabNexus Project', url: 'https://github.com', favIconUrl: 'https://github.com/favicon.ico' },
+    { id: 4, title: 'GitHub: NextTab Project', url: 'https://github.com', favIconUrl: 'https://github.com/favicon.ico' },
     { id: 5, title: 'Figma: Design System', url: 'https://figma.com', favIconUrl: 'https://figma.com/favicon.ico' },
     { id: 6, title: 'Vite Guide', url: 'https://vitejs.dev', favIconUrl: 'https://vitejs.dev/favicon.ico' },
     { id: 7, title: 'MDN Web Docs', url: 'https://developer.mozilla.org', favIconUrl: 'https://developer.mozilla.org/favicon.ico' },
